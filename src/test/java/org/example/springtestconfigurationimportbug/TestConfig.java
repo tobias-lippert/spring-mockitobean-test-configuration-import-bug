@@ -1,10 +1,10 @@
 package org.example.springtestconfigurationimportbug;
 
 import org.springframework.boot.test.context.TestConfiguration;
-import org.springframework.test.context.bean.override.mockito.MockitoBean;
+import org.springframework.boot.test.mock.mockito.MockBean;
 
 @TestConfiguration
 public class TestConfig {
-    @MockitoBean
+    @MockBean
     private DummyBean dummyBeanUnused;
 }
