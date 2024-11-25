@@ -8,13 +8,6 @@
         <version>3.4.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <repositories>
-        <repository>
-            <id>repository.spring.milestone</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-        </repository>
-    </repositories>
     <groupId>org.example</groupId>
     <artifactId>spring-testconfiguration-import-bug</artifactId>
     <version>0.0.1-SNAPSHOT</version>
